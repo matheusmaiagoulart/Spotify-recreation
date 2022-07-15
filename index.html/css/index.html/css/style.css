@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:white;
+    background-color: #2941ab;
+    width: 100vw;
+    height: 90rem;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    
+}
+
+header div.cabecalho{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(33,33,33);
+    justify-content: space-between;
+    align-items: center;
+}
+
+ div.cabecalho img.logo{
+    width: 150px;
+    margin-left: 180px;
+}
+
+ div.cabecalho ul {
+    display: flex;
+    text-align:center;
+    list-style: none;
+    
+    font-family: 'PT Sans';
+    margin-right: 180px;
+
+}
+header div.cabecalho ul :hover{
+    color: #1ed760;
+}
+
+    
+
+div.cabecalho li {
+    margin-right: 20px;
+    color: white;
+    margin-right:40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+article div.box1 h1{
+    text-align: center;
+    font-size:110px;
+    color: #1ed760; 
+    
+}
+ 
+ article div.box1 h1.centro-titulo{
+    text-align: center;
+    margin-top: 180px;
+    font-size:145px;
+    font-family: 'Roboto';
+ }
+ article div.box1 h1.tudo{
+     font-size: 150px;
+     font-family: "Roboto";
+ }
+
+ article div.box1 h3.sub-texto{
+    text-align: center;
+    margin-top: 25px;
+    color: #1ed760;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ 
+ article div.box1 button.button{
+   padding-left: 100px;
+   margin-top: 36px;
+    text-align: center;
+    padding: 15px 34px 14px;
+    margin-left: 42.5%;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1ed760;
+    color:#2941ab;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+section.circle .circle-page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(40deg, #2941ab, #21e0d6 );
+    clip-path: circle(25% at right 50%);
+    z-index: -1;
+    margin-top: -700px;
+    margin-left: 150px;
+
+
+}
+
+footer article{
+    height: 536px;
+    background-color: rgb(33,33,33);
+    margin-top: 157px;
+}
+footer article img{
+    width: 150px;
+    margin-top: 24px;
+    margin-left: 178px;
+    
+}
+footer article div.bloco1 ul {
+    list-style: none;
+    margin-top: -107px;
+    margin-left: 384px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+}
+footer article div.bloco1 ul :hover{
+    color: #1ed760;
+
+}
+
+footer article div.bloco1 ul li {
+    margin-top: 25px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+
+
+
+footer article div.bloco1 ul li.empresa{
+    color: rgba(192, 192, 192, 0.666);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+footer article div.bloco2 ul{
+    list-style: none;
+    margin-top: -174px;
+    margin-left: 578px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    
+}
+footer article div.bloco2 ul.coluna2 :hover{
+    color: #1ed760;
+    width: auto;
+}
+footer article div.bloco2 ul.coluna2 li{
+    margin-top: 26px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    
+}
+footer article div.bloco2 ul.coluna2 li.Comunidades{
+    color: rgba(192, 192, 192, 0.666);
+    font-size: 11.7px;
+    letter-spacing: 1px;
+
+}
+
+footer article div.bloco3 ul.coluna3{
+    list-style:none;
+    margin-top: -256px;
+    margin-left: 776px;
+    font-size: 14px;
+}
+
+footer article div.bloco3 ul.coluna3 :hover{
+    color: #1ed760;
+    width: auto;
+}
+footer article div.bloco3 ul.coluna3 li{
+    margin-top: 24.8px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+footer article div.bloco3 ul.coluna3 li.links{
+    color: rgba(192, 192, 192, 0.666);
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+footer article div.social_medias i{
+    color: white;
+}
+
+footer article div.footer ul{
+    font-family: 'Lato', sans-serif;;
+    list-style: none;
+    display: flex;
+    margin-top: 225px;
+    margin-left: 185px;
+    color: rgba(192, 192, 192, 0.666);
+    
+}
+footer article div.footer ul li{
+    margin-right: 25px;
+    font-size: 10px;
+    letter-spacing: 0.7px;
+    
+}
